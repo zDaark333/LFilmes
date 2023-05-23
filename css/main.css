@@ -1,0 +1,24 @@
+@import "header.css";
+@import "categorias__titulo.css";
+@import "movie.css";
+@import "rodape.css";
+html {
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 400px){
+    header {
+        width: auto;
+    }
+    main {
+        width: auto;
+    }
+    .movie {
+        width: auto;
+    }
+}
+
